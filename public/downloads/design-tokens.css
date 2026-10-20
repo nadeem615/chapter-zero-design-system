@@ -1,0 +1,27 @@
+:root {
+  --cz-zero-orange: #EE6A1B;
+  --cz-deep-spine: #0F4A2E;
+  --cz-page-green: #1F8A55;
+  --cz-sprout-leaf: #3DB873;
+  --cz-paper-cream: #FFFDF8;
+  --cz-ink-moss: #3D5A4A;
+  --cz-utility-ink: #102A1C;
+  --cz-border: #74867B;
+  --cz-error: #A12D25;
+  --cz-font: 'Sora', Arial, sans-serif;
+  --cz-radius-control: 8px;
+  --cz-radius-card: 16px;
+  --cz-radius-feature: 24px;
+  --cz-content-width: 1200px;
+  --cz-reading-width: 68ch;
+}
+.cz-primary { background: var(--cz-deep-spine); color: var(--cz-paper-cream); border: 1px solid var(--cz-deep-spine); }
+.cz-primary:hover { background: var(--cz-utility-ink); }
+.cz-accent { background: var(--cz-zero-orange); color: var(--cz-utility-ink); border: 1px solid var(--cz-deep-spine); }
+.cz-accent:hover { text-decoration: underline; }
+.cz-button { font: 600 16px/24px var(--cz-font); min-height: 44px; padding: 10px 20px; border-radius: var(--cz-radius-control); }
+.cz-button:focus-visible { outline: 3px solid var(--cz-deep-spine); outline-offset: 3px; }
+.cz-on-dark .cz-button:focus-visible { outline-color: var(--cz-paper-cream); }
+@media (prefers-reduced-motion: reduce) { .cz-button { transition: none; } }
+
+:root { --cz-text-primary: var(--cz-deep-spine); --cz-text-secondary: var(--cz-ink-moss); --cz-text-inverse: var(--cz-paper-cream); --cz-text-on-accent: var(--cz-utility-ink); --cz-surface-canvas: var(--cz-paper-cream); --cz-surface-inverse: var(--cz-deep-spine); --cz-border-interactive: var(--cz-border); }

@@ -1,0 +1,106 @@
+{
+  "version": "2.0",
+  "color": {
+    "zero-orange": "#EE6A1B",
+    "deep-spine": "#0F4A2E",
+    "page-green": "#1F8A55",
+    "sprout-leaf": "#3DB873",
+    "paper-cream": "#FFFDF8",
+    "ink-moss": "#3D5A4A",
+    "utility-ink": "#102A1C",
+    "border": "#74867B",
+    "error": "#A12D25"
+  },
+  "font": {
+    "family": "Sora, Arial, sans-serif",
+    "weights": [
+      400,
+      600,
+      700,
+      800
+    ]
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "radius": {
+    "control": 8,
+    "card": 16,
+    "feature": 24
+  },
+  "layout": {
+    "maxWidth": 1200,
+    "readingWidth": "68ch",
+    "mobileMargin": 20
+  },
+  "motion": {
+    "interaction": "160ms",
+    "editorial": "360ms"
+  },
+  "semantic": {
+    "text": {
+      "primary": "{color.deep-spine}",
+      "secondary": "{color.ink-moss}",
+      "inverse": "{color.paper-cream}",
+      "onAccent": "{color.utility-ink}",
+      "error": "{color.error}"
+    },
+    "surface": {
+      "canvas": "{color.paper-cream}",
+      "inverse": "{color.deep-spine}",
+      "accent": "{color.zero-orange}"
+    },
+    "action": {
+      "primaryBackground": "{color.deep-spine}",
+      "primaryText": "{color.paper-cream}",
+      "accentBackground": "{color.zero-orange}",
+      "accentText": "{color.utility-ink}"
+    },
+    "border": {
+      "interactive": "{color.border}"
+    }
+  },
+  "typography": {
+    "display": {
+      "weight": 800,
+      "size": 64,
+      "lineHeight": 70,
+      "mobileSize": 40,
+      "mobileLineHeight": 46
+    },
+    "title": {
+      "weight": 700,
+      "size": 48,
+      "lineHeight": 56,
+      "mobileSize": 32,
+      "mobileLineHeight": 40
+    },
+    "section": {
+      "weight": 600,
+      "size": 32,
+      "lineHeight": 40,
+      "mobileSize": 26,
+      "mobileLineHeight": 34
+    },
+    "body": {
+      "weight": 400,
+      "size": 18,
+      "lineHeight": 29,
+      "mobileSize": 16,
+      "mobileLineHeight": 26
+    },
+    "caption": {
+      "weight": 400,
+      "size": 14,
+      "lineHeight": 21
+    }
+  }
+}

@@ -1,0 +1,12 @@
+foreground,background,ratio,normal_text_4.5,large_text_3,graphic_boundary_3
+deep-spine,paper-cream,10.130,True,True,True
+ink-moss,paper-cream,7.485,True,True,True
+page-green,paper-cream,4.282,False,True,True
+zero-orange,paper-cream,3.077,False,True,True
+paper-cream,zero-orange,3.077,False,True,True
+deep-spine,zero-orange,3.292,False,True,True
+utility-ink,zero-orange,4.900,True,True,True
+deep-spine,sprout-leaf,4.071,False,True,True
+paper-cream,deep-spine,10.130,True,True,True
+border,paper-cream,3.798,False,True,True
+error,paper-cream,7.081,True,True,True

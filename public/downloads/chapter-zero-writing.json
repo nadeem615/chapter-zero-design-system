@@ -1,0 +1,86 @@
+{
+  "Welcome": [
+    [
+      "First hello",
+      "Welcome to Chapter Zero. What have you been reading—or hoping to read?"
+    ],
+    [
+      "First contribution",
+      "A question is a good place to start. What would you like to explore?"
+    ],
+    [
+      "Return visit",
+      "Good to see you again. Which conversation would you like to pick up?"
+    ]
+  ],
+  "Exchange": [
+    [
+      "Offer a book",
+      "Give this book another reader. Add the title, author, edition, and an honest condition description."
+    ],
+    [
+      "Condition prompt",
+      "What should the next reader know? Mention annotations, wear, or missing pages."
+    ],
+    [
+      "Terms reminder",
+      "Agree on what is being exchanged and how the handoff will work before confirming."
+    ]
+  ],
+  "Discussion": [
+    [
+      "Open a thread",
+      "Which detail changed how you understood the story?"
+    ],
+    [
+      "Invite evidence",
+      "What in the text led you to that interpretation?"
+    ],
+    [
+      "Spoiler warning",
+      "Spoilers: [book title]. This conversation discusses the ending."
+    ]
+  ],
+  "Service": [
+    [
+      "Empty search",
+      "No books match those filters. Try a broader search or remove a filter."
+    ],
+    [
+      "Error",
+      "Your post did not publish. Please try again."
+    ],
+    [
+      "Saved draft",
+      "Your post did not publish. Your draft is still here. Try again. Use only if draft retention is implemented."
+    ]
+  ],
+  "Moderation": [
+    [
+      "Gentle correction",
+      "Please respond to the interpretation without making personal remarks about the reader."
+    ],
+    [
+      "Report acknowledgement",
+      "Thank you for flagging this. Your report has been received. Use only after a report is actually recorded."
+    ],
+    [
+      "Sensitive conversation",
+      "Different experiences can shape different readings. Keep the discussion focused on the text and treat each other with care."
+    ]
+  ],
+  "Celebration": [
+    [
+      "Contribution",
+      "You gave another reader a new way into the book. Thank you for sharing."
+    ],
+    [
+      "Exchange complete",
+      "A book has found its next reader."
+    ],
+    [
+      "Milestone",
+      "You helped start five conversations. Use only when supported by accurate participation data."
+    ]
+  ]
+}
