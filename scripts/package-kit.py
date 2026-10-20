@@ -3,6 +3,13 @@ from zipfile import ZipFile, ZIP_DEFLATED
 
 root=Path(__file__).resolve().parents[1]
 downloads=root/'public/downloads'
+if (downloads/'icons').exists():
+    with ZipFile(downloads/'chapter-zero-icons.zip','w',ZIP_DEFLATED) as z:
+        for f in (downloads/'icons').glob('*.svg'):
+            z.write(f,'Chapter Zero Icons/svg/'+f.name)
+        z.write(root/'src/icons.js','Chapter Zero Icons/src/icons.js')
+        z.write(root/'src/components/BrandIcon.jsx','Chapter Zero Icons/src/components/BrandIcon.jsx')
+        z.write(downloads/'iconography-guide.md','Chapter Zero Icons/README.md')
 with ZipFile(downloads/'chapter-zero-elements-kit.zip','w',ZIP_DEFLATED) as z:
     for f in (downloads/'elements').rglob('*'):
         if f.is_file(): z.write(f,'Chapter Zero Elements/'+f.name)
