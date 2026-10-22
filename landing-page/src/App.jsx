@@ -42,7 +42,8 @@ export default function App(){
     <div className="container hero-inner">
      <div className="hero-copy">
       <Pill icon={BookIcon}>An online community for readers</Pill>
-      <h1>Every story <span className="underlined">starts here.<BrandShape name="underline" treatment="sunrise"/></span></h1>
+      <h1>Every story <span className="underlined">starts here.</span></h1>
+      <div className="headline-line" aria-hidden="true"><BrandShape name="underline" treatment="growth"/></div>
       <p>Chapter Zero is a place to pass a finished book to its next reader, compare what an ending meant to you, and share the books that stayed — with the reason why.</p>
       <div className="hero-actions">
        <button className="cz-button cz-accent" onClick={()=>go('join')}>Request an invitation<BrandIcon name="arrow-right" size={18}/></button>

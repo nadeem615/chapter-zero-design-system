@@ -37,9 +37,10 @@ p{color:var(--cz-text-secondary);line-height:1.8;margin-top:0}
 .hero{background-color:var(--cz-paper-cream);background-size:960px;border-bottom:1px solid #dce3d9}
 .hero-inner{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center;padding-top:72px;padding-bottom:80px}
 .hero h1{font-size:clamp(42px,6vw,76px);line-height:1.05;letter-spacing:-.055em;margin:24px 0}
-.underlined{position:relative;display:inline-block;color:var(--cz-zero-orange);isolation:isolate}
-.underlined .cz-shape{position:absolute;left:-4%;right:-4%;bottom:-.42em;height:.6em;z-index:-1}
-.underlined .cz-shape svg{height:100%;width:100%;transform:scaleY(1.4)}
+.underlined{color:var(--cz-zero-orange)}
+/* The thought line sits beneath the headline rather than through it. */
+.headline-line{width:180px;margin:-62px 0 -36px -20px}
+.headline-line .cz-shape{width:100%}
 .hero-copy>p{font-size:17px;max-width:46ch;margin-bottom:32px}
 .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:36px}
 .hero-art{position:relative;min-height:440px;background:#e8eddf;border-radius:50% 50% var(--cz-radius-feature) var(--cz-radius-feature);overflow:hidden}
